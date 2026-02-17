@@ -109,7 +109,7 @@ const showPassword = ref(false)
 
 const handleLogin = async () => {
   try {
-    const res = await axios.post('http://127.0.0.1:8002/api/login', {
+    const res = await axios.post('http://127.0.0.1:8000/api/login', {
       email: email.value,
       password: password.value
     })

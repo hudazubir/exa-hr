@@ -3,6 +3,7 @@ import Homepage from '@/views/homepage.vue'
 import Secpage from '@/views/secpage.vue'
 import LogMasuk from '@/views/auth/login.vue'
 import Register from '@/views/auth/register.vue'
+import Index from '@/views/index.vue'
 
 const routes = [
   { path: '/', redirect: '/login' },
@@ -10,6 +11,7 @@ const routes = [
   { path: '/register', component: Register },
   { path: '/homepage', component: Homepage },
   { path: '/secpage', component: Secpage },
+  { path: '/index', component: Index},
 ]
 
 const router = createRouter({
